@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}DELETE{% endblock %}
+{% block content %}
+
+
+<div class="container d-flex justify-content-center vh-100 align-items-center">
+
+    <form method="POST">
+        <div class="mb-3">
+            <h1>DELETE STUDENT</h1>
+            <label for="formGroupExampleInput" class="form-label"></label>
+            <input type="text" class="" id="id" name="id" placeholder="Enter student id">
+            <button type="submit" class="btn btn-danger">Delete</submit>
+            <br />
+        </div>
+    </form>
+</div>
+  
+{% endblock %}
